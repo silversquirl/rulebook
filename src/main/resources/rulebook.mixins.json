@@ -4,7 +4,8 @@
   "package": "vktec.rulebook.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-	  "FillCommandMixin"
+	  "FillCommandMixin",
+	  "IntegratedServerAccessor"
   ],
   "injectors": {
     "defaultRequire": 1

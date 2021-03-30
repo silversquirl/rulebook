@@ -10,7 +10,7 @@ import org.spongepowered.asm.mixin.injection.ModifyConstant;
 import vktec.rulebook.RulebookMod;
 
 @Mixin(FillCommand.class)
-public abstract class FillCommandMixin {
+abstract class FillCommandMixin {
 	@ModifyConstant(
 		method = "execute",
 		constant = @Constant(intValue = 0x8000)
