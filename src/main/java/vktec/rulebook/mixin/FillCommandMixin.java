@@ -9,7 +9,7 @@ import org.spongepowered.asm.mixin.injection.ModifyConstant;
 
 import vktec.rulebook.RulebookMod;
 
-@Mixin(FillCommand.class)
+@Mixin(value = FillCommand.class, priority = 1001)
 abstract class FillCommandMixin {
 	@ModifyConstant(
 		method = "execute",

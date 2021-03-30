@@ -28,7 +28,7 @@ public class RulebookMod implements ModInitializer {
 	}
 
 	public static void setViewDistance(MinecraftServer server, int viewDistance) {
-		if (server instanceof IntegratedServer) {
+		if (!server.isDedicated()) {
 			GameOptions options = ((IntegratedServerAccessor)server).getClient().options;
 			options.viewDistance = viewDistance;
 			options.write();
