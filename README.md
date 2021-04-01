@@ -4,8 +4,10 @@ Additional Minecraft gamerules to allow greater customization of the game.
 
 ## Rules
 
-- `fillVolume` - maximum volume of a /filled area
-- `viewDistance` - server view distance (overrides view-distance in server.properties)
+- `fillVolume` - maximum volume of a /filled area (default: 32768)
+- `lightFiresInAir` - allows flint and steel to light fires on air blocks - useful for updating BUDs (default: false)
+- `spawnChunksRadius` - determines the radius of the spawn chunks (default: 11)
+- `viewDistance` - server view distance (overrides view-distance in server.properties) (default: 10)
 
 ## Compatibility with fabric-carpet
 
