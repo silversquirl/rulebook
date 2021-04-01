@@ -18,6 +18,8 @@ public class RulebookMod implements ModInitializer {
 	public static GameRules.Key<GameRules.IntRule> VIEW_DISTANCE =
 		GameRuleRegistry.register("viewDistance", GameRules.Category.MISC,
 			GameRuleFactory.createIntRule(10, 0, 32, (server, rule) -> setViewDistance(server, rule.get())));
+	public static GameRules.Key<GameRules.BooleanRule> LIGHT_FIRES_IN_AIR =
+		GameRuleRegistry.register("lightFiresInAir", GameRules.Category.MISC, GameRuleFactory.createBooleanRule(false));
 
 	@Override
 	public void onInitialize() {
