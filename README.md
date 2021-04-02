@@ -8,6 +8,7 @@ Additional Minecraft gamerules to allow greater customization of the game.
 - `lightFiresInAir` - allows flint and steel to light fires on air blocks - useful for updating BUDs (default: false)
 - `spawnChunksRadius` - determines the radius of the spawn chunks (default: 11)
 - `viewDistance` - server view distance (overrides view-distance in server.properties) (default: 10)
+- `xzyBlockUpdates` - causes block updates to follow the order -X, +X, -Z, +Z, -Y, +Y, similar to state updates
 
 ## Compatibility with fabric-carpet
 

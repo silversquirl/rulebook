@@ -27,6 +27,8 @@ public class RulebookMod implements ModInitializer {
 	public static GameRules.Key<GameRules.IntRule> VIEW_DISTANCE =
 		GameRuleRegistry.register("viewDistance", GameRules.Category.MISC,
 			GameRuleFactory.createIntRule(10, 0, 32, (server, rule) -> setViewDistance(server, rule.get())));
+	public static GameRules.Key<GameRules.BooleanRule> XZY_BLOCK_UPDATES =
+		GameRuleRegistry.register("xzyBlockUpdates", GameRules.Category.MISC, GameRuleFactory.createBooleanRule(false));
 
 	@Override
 	public void onInitialize() {
