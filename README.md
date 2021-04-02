@@ -1,5 +1,7 @@
 # Rulebook
 
+[![Discord](https://img.shields.io/badge/chat%20on-discord-7289DA?logo=discord)](https://discord.gg/zEnfMVJqe6)
+
 Additional Minecraft gamerules to allow greater customization of the game.
 
 ## Rules
@@ -18,4 +20,5 @@ Carpet's equivalents may not integrate properly with Rulebook's gamerules, or ma
 Use Rulebook's options instead of Carpet's and everything should be fine.
 
 (Note: at present, launching rulebook together with carpet will result in a mixin conflict. [This PR][fix] will fix the issue when merged)
+
 [fix]: https://github.com/gnembon/fabric-carpet/pull/781
