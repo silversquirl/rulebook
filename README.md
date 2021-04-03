@@ -6,6 +6,7 @@ Additional Minecraft gamerules to allow greater customization of the game.
 
 ## Rules
 
+- `boneBlockFertilizer` - placing or moving a bone block will fertilize all blocks around it (1/9 chance of deletion per fertilization)
 - `fillVolume` - maximum volume of a /filled or /cloned area (default: 32768)
 - `lightFiresInAir` - allows flint and steel to light fires on air blocks - useful for updating BUDs (default: false)
 - `spawnChunksRadius` - determines the radius of the spawn chunks (default: 11)

@@ -17,6 +17,8 @@ import net.minecraft.util.math.ChunkPos;
 import vktec.rulebook.mixin.IntegratedServerAccessor;
 
 public class RulebookMod implements ModInitializer {
+	public static GameRules.Key<GameRules.BooleanRule> BONE_BLOCK_FERTILIZER =
+		GameRuleRegistry.register("boneBlockFertilizer", GameRules.Category.MISC, GameRuleFactory.createBooleanRule(false));
 	public static GameRules.Key<GameRules.IntRule> FILL_VOLUME =
 		GameRuleRegistry.register("fillVolume", GameRules.Category.MISC, GameRuleFactory.createIntRule(0x8000, 0));
 	public static GameRules.Key<GameRules.BooleanRule> LIGHT_FIRES_IN_AIR =

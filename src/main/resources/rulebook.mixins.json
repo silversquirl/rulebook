@@ -8,6 +8,7 @@
 	  "CloneCommandMixin",
 	  "FillCommandMixin",
 	  "IntegratedServerAccessor",
+	  "PillarBlockMixin",
 	  "WorldMixin"
   ]
 }
